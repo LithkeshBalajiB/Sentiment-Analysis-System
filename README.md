@@ -118,13 +118,5 @@ npm run dev
 ## 👨‍💻 Author
 
 ### Lithkesh Balaji B
-B.Tech CSE (Big Data Analytics)  
-SRM Institute of Science and Technology – Vadapalani
-
 - GitHub: [LithkeshBalajiB](https://github.com/LithkeshBalajiB)
 
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
