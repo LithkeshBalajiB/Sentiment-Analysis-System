@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 240 15% 6%;
+    --foreground: 40 30% 96%;
+
+    --card: 240 14% 9%;
+    --card-foreground: 40 30% 96%;
+
+    --popover: 240 14% 9%;
+    --popover-foreground: 40 30% 96%;
+
+    --primary: 40 30% 96%;
+    --primary-foreground: 240 15% 6%;
+
+    --secondary: 240 10% 14%;
+    --secondary-foreground: 40 30% 96%;
+
+    --muted: 240 8% 18%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 35 90% 60%;
+    --accent-foreground: 240 15% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 30% 96%;
+
+    --border: 240 8% 18%;
+    --input: 240 8% 14%;
+    --ring: 35 90% 60%;
+
+    --positive: 152 70% 50%;
+    --positive-foreground: 240 15% 6%;
+    --negative: 350 85% 60%;
+    --negative-foreground: 40 30% 96%;
+
+    --gradient-hero: radial-gradient(ellipse at top, hsl(35 90% 60% / 0.18), transparent 60%),
+                     radial-gradient(ellipse at bottom left, hsl(280 70% 50% / 0.12), transparent 50%);
+    --gradient-positive: linear-gradient(135deg, hsl(152 70% 50%), hsl(170 75% 45%));
+    --gradient-negative: linear-gradient(135deg, hsl(350 85% 60%), hsl(20 90% 55%));
+    --shadow-glow: 0 20px 60px -20px hsl(35 90% 60% / 0.4);
+    --shadow-card: 0 8px 30px -10px hsl(240 50% 2% / 0.6);
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+    background-image: var(--gradient-hero);
+    background-attachment: fixed;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+    font-optical-sizing: auto;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--foreground)), hsl(var(--accent)));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .glass {
+    background: hsl(var(--card) / 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
