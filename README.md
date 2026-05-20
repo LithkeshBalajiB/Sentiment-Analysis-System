@@ -86,14 +86,12 @@ npm run dev
 
 ## 📸 Screenshots
 
-> Add your project screenshots here
+<img width="1918" height="983" alt="home" src="https://github.com/user-attachments/assets/7769232c-3b0e-46bc-9b7b-757454b2d71d" />
 
-Example:
+<img width="1918" height="991" alt="analysispage" src="https://github.com/user-attachments/assets/62a2103b-ef00-4019-ad50-b300fed2b774" />
 
-```markdown
-![Home Page](screenshots/home.png)
-![Prediction Result](screenshots/result.png)
-```
+<img width="1918" height="808" alt="howitsbuilt" src="https://github.com/user-attachments/assets/7b903790-a252-4c54-98e1-8920baebc709" />
+
 
 ---
 
