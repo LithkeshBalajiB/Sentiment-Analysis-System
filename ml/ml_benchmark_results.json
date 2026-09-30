@@ -1,0 +1,27 @@
+{
+  "dataset": "IMDb 2,500 Labeled Reviews (80% train / 20% test)",
+  "train_samples": 2000,
+  "test_samples": 500,
+  "models": {
+    "majority_baseline": {
+      "accuracy": 50.0
+    },
+    "lexicon_rule_based": {
+      "accuracy": 75.0,
+      "macro_f1": 74.22
+    },
+    "multinomial_nb": {
+      "accuracy": 84.0,
+      "macro_f1": 83.99,
+      "accuracy_gain_over_lexicon": 9.0
+    },
+    "logistic_regression": {
+      "accuracy": 84.8,
+      "macro_f1": 84.8,
+      "roc_auc": 0.9305,
+      "accuracy_gain_over_lexicon": 9.8,
+      "accuracy_gain_over_majority": 34.8
+    }
+  },
+  "resume_story": "Trained a scikit-learn TF-IDF + Logistic Regression model reaching 84.8% accuracy (84.8% Macro F1), outperforming the lexicon baseline by 9.8 percentage points."
+}

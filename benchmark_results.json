@@ -1,0 +1,27 @@
+{
+  "dataset": "IMDb Movie Reviews (Clean Subsample)",
+  "sampleCount": 2500,
+  "distribution": {
+    "positive": 1250,
+    "negative": 1250
+  },
+  "majorityBaseline": "50.00%",
+  "lexiconStrictAccuracy": "72.04%",
+  "lexiconBinaryAccuracy": "74.52%",
+  "neutralPredictions": 149,
+  "precisionPositive": "68.28%",
+  "recallPositive": "91.60%",
+  "f1Positive": "78.24%",
+  "precisionNegative": "87.24%",
+  "recallNegative": "57.44%",
+  "f1Negative": "69.27%",
+  "macroF1": "73.75%",
+  "confusionMatrix": {
+    "TP": 1145,
+    "FP": 532,
+    "TN": 718,
+    "FN": 105
+  },
+  "executionTimeSeconds": "0.30",
+  "throughputReviewsPerSec": 8224
+}

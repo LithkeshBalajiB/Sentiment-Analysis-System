@@ -1,0 +1,206 @@
+{
+  "top_positive": [
+    {
+      "term": "great",
+      "weight": 3.071
+    },
+    {
+      "term": "excellent",
+      "weight": 2.826
+    },
+    {
+      "term": "love",
+      "weight": 2.13
+    },
+    {
+      "term": "loved",
+      "weight": 2.053
+    },
+    {
+      "term": "still",
+      "weight": 1.865
+    },
+    {
+      "term": "perfect",
+      "weight": 1.755
+    },
+    {
+      "term": "definitely",
+      "weight": 1.69
+    },
+    {
+      "term": "one of",
+      "weight": 1.67
+    },
+    {
+      "term": "it is",
+      "weight": 1.652
+    },
+    {
+      "term": "well",
+      "weight": 1.633
+    },
+    {
+      "term": "wonderful",
+      "weight": 1.607
+    },
+    {
+      "term": "best",
+      "weight": 1.505
+    },
+    {
+      "term": "the best",
+      "weight": 1.5
+    },
+    {
+      "term": "especially",
+      "weight": 1.455
+    },
+    {
+      "term": "this is",
+      "weight": 1.417
+    },
+    {
+      "term": "brilliant",
+      "weight": 1.376
+    },
+    {
+      "term": "amazing",
+      "weight": 1.369
+    },
+    {
+      "term": "and",
+      "weight": 1.319
+    },
+    {
+      "term": "dvd",
+      "weight": 1.305
+    },
+    {
+      "term": "fantastic",
+      "weight": 1.305
+    },
+    {
+      "term": "performances",
+      "weight": 1.299
+    },
+    {
+      "term": "always",
+      "weight": 1.283
+    },
+    {
+      "term": "favorite",
+      "weight": 1.27
+    },
+    {
+      "term": "is great",
+      "weight": 1.269
+    },
+    {
+      "term": "own",
+      "weight": 1.265
+    }
+  ],
+  "top_negative": [
+    {
+      "term": "bad",
+      "weight": -3.721
+    },
+    {
+      "term": "worst",
+      "weight": -2.425
+    },
+    {
+      "term": "no",
+      "weight": -2.328
+    },
+    {
+      "term": "the worst",
+      "weight": -2.075
+    },
+    {
+      "term": "awful",
+      "weight": -2.032
+    },
+    {
+      "term": "waste",
+      "weight": -1.982
+    },
+    {
+      "term": "stupid",
+      "weight": -1.924
+    },
+    {
+      "term": "terrible",
+      "weight": -1.798
+    },
+    {
+      "term": "even",
+      "weight": -1.787
+    },
+    {
+      "term": "money",
+      "weight": -1.782
+    },
+    {
+      "term": "poor",
+      "weight": -1.775
+    },
+    {
+      "term": "boring",
+      "weight": -1.741
+    },
+    {
+      "term": "worse",
+      "weight": -1.689
+    },
+    {
+      "term": "plot",
+      "weight": -1.554
+    },
+    {
+      "term": "instead",
+      "weight": -1.513
+    },
+    {
+      "term": "at all",
+      "weight": -1.483
+    },
+    {
+      "term": "actors",
+      "weight": -1.479
+    },
+    {
+      "term": "nothing",
+      "weight": -1.477
+    },
+    {
+      "term": "the only",
+      "weight": -1.455
+    },
+    {
+      "term": "waste of",
+      "weight": -1.397
+    },
+    {
+      "term": "just",
+      "weight": -1.393
+    },
+    {
+      "term": "any",
+      "weight": -1.383
+    },
+    {
+      "term": "why",
+      "weight": -1.308
+    },
+    {
+      "term": "supposed",
+      "weight": -1.305
+    },
+    {
+      "term": "minutes",
+      "weight": -1.281
+    }
+  ]
+}
